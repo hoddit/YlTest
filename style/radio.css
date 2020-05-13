@@ -123,7 +123,6 @@
   }
 }
 ul {
-  margin: 12px;
   padding: 0;
   list-style: none;
   width: 100%;
@@ -142,10 +141,14 @@ body {
   min-height: 100vh;
   font-family: 'Inter', Arial, sans-serif;
   color: #8A91B4;
-  background: #F6F8FF;
+  background: #ECEFF8;
 }
 @media (max-width: 800px) {
   body {
     flex-direction: column;
   }
+}
+
+.radio-selector {
+  margin-top: 50px;
 }
